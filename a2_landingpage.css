@@ -1,0 +1,178 @@
+@media (max-width: 500px) {
+
+    .sidemenu{
+        font-size:150%
+    }
+
+    .maintitle{
+       color:red;
+       padding:5% 
+    }
+    
+    
+    
+    .intro{
+        font-size:200%
+    }
+
+
+
+
+}
+
+
+@media (min-width: 500px) {
+
+    .body{
+        z-index: 10;
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+    }
+
+
+    .header{
+        height: 15%;
+        width:100%;
+        display:block;
+        position:fixed;
+        display:flex;
+        align-items: center;
+        top: 0;                    
+        left: 0;                  
+        padding: 0;                
+        margin: 0;
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/IMG_1766.jpg"); 
+        border-width: 2px;
+        border-color: #61c3a2;
+        border-style: inset;
+        z-index: 100;
+    }
+
+    .skewed-bottom {
+        padding-top: 2%;
+        width: 100%;
+        height: 100px;  /* Height of the skewed part */
+        background-color: #61c3a2;
+        transform: skewY(-5deg);  /* Skew only the bottom edge */
+        display:block;
+        position:fixed;
+        top: 0;                    
+        left: 0;                  
+        padding: 0;                
+        margin: 0;
+    }
+
+    .maintitle{
+        font-family: 'urw';
+        color:white;
+        font-size: 200%;
+        padding-left: 3%;
+        text-align: left;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        border-width: 2px;
+        border-color: #61c3a2;
+        border-style: inset;
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+     }
+    
+    
+    
+    .topmenu{
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/IMG_1766.jpg");
+        font-family: 'urw';
+        font-size:150%;
+        border-spacing: 10px;
+        display: float;
+        position:fixed;
+        width: 100%;
+        left: 0;                   
+        padding: 0;                
+        margin: 0;
+    }
+
+
+     .button1{
+        /* background-color: #61c3a2; */
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        border-width: 2px;
+        border-color: #61c3a2;
+        border-style: inset;
+        cursor: pointer;
+        width:10%;
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+     }
+
+    .maintext{
+        font-family: 'urw';
+        font-weight: 50;
+        width: 95%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        float:right;
+        margin-right: 2%;
+        text-align: center;
+        padding-left: 3%;
+    }
+
+    .sectiontitle{
+        font-family: 'urw';
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        text-align: left;
+        width:fit-content;
+    }
+
+    .intro{
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
+
+    .section2{
+        padding-top: 2%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  
+        font-size:200%;
+    }
+
+    .section3{
+        padding-top: 2%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
+
+    .section4{
+        padding-top: 2%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
+
+
+
+}
+
+
+/* ## colors 
+## light red: #A62F27
+## light blue: #7DA6CB
+## dark red: #5B1D16
+## teal: #018281
+## green: #80C141
+## orange: #FB9D10 */
+
+@font-face  {
+    font-family:'urw';
+    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquawid-regobl.otf")
+ }
+
+ @font-face  {
+    font-family:'urw_title';
+    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquasc-med.otf")
+ }
+
+
+
+
+
