@@ -25,7 +25,7 @@
 
     .body{
         z-index: 10;
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+        background-image: url("stars4.gif");
     }
 
 
@@ -40,7 +40,7 @@
         left: 0;                  
         padding: 0;                
         margin: 0;
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/IMG_1766.jpg"); 
+        background-image: url("IMG_1766.jpg"); 
         border-width: 2px;
         border-color: #61c3a2;
         border-style: inset;
@@ -71,13 +71,13 @@
         border-width: 2px;
         border-color: #61c3a2;
         border-style: inset;
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+        background-image: url("stars4.gif");
      }
     
     
     
     .topmenu{
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/IMG_1766.jpg");
+        background-image: url("IMG_1766.jpg");
         font-family: 'urw';
         font-size:150%;
         border-spacing: 10px;
@@ -99,7 +99,7 @@
         border-style: inset;
         cursor: pointer;
         width:10%;
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/stars4.gif");
+        background-image: url("stars4.gif");
      }
 
     .maintext{
@@ -164,12 +164,12 @@
 
 @font-face  {
     font-family:'urw';
-    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquawid-regobl.otf")
+    src: url("urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquawid-regobl.otf")
  }
 
  @font-face  {
     font-family:'urw_title';
-    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquasc-med.otf")
+    src: url("urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquasc-med.otf")
  }
 
 
