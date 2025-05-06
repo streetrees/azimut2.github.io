@@ -3,6 +3,7 @@
     .body{
         z-index: 10;
         background-image: url("stars4.gif");
+        background-color: black;
     }
 
 
@@ -149,6 +150,7 @@
     .body{
         z-index: 10;
         background-image: url("stars4.gif");
+        background-color: black;
     }
 
 
@@ -304,7 +306,7 @@
 
  @font-face  {
     font-family:'latek';
-    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/computer-modern/cmunssdc.ttf")
+    src: url("cmunssdc.ttf")
  }
 
 
