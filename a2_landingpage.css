@@ -46,7 +46,7 @@
         font-size: 90%;
         padding-left: 3%;
         text-align: left;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         border-width: 2px;
         border-color: #61c3a2;
         border-style: inset;
@@ -81,7 +81,7 @@
      .button1{
         font-family:'latek';
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         border-width: 2px;
         border-color: #61c3a2;
         border-style: inset;
@@ -97,7 +97,7 @@
         width: 95%;
         color:white;
         font-size: 80%;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         float:right;
         margin-right: 2%;
         text-align: center;
@@ -107,7 +107,7 @@
     .sectiontitle{
         font-family: 'latek';
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         text-align: left;
         width:fit-content;
     }
@@ -115,28 +115,28 @@
     .intro{
         padding-top: 40%;
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         font-size:200%;
     }
 
     .section2{
         padding-top: 40%;
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;   */
         font-size:200%;
     }
 
     .section3{
         padding-top: 40%;
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         font-size:200%;
     }
 
     .section4{
         padding-top: 40%;
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         font-size:200%;
     }
 
