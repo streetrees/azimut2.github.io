@@ -1,20 +1,143 @@
 @media (max-width: 500px) {
 
-    .sidemenu{
-        font-size:150%
+    .body{
+        z-index: 10;
+        background-image: url("stars4.gif");
+    }
+
+
+    .header{
+        height: 15%;
+        display:block;
+        position:fixed;
+        display:flex;
+        align-items: top;
+        top: 0;                    
+        left: 0;                  
+        padding: 0;                
+        margin: 0;
+        z-index: 100;
+    }
+
+    .skewed-bottom {
+        padding-top: 1%;
+        width: 100%;
+        height: 100px;  /* Height of the skewed part */
+        background-color: #61c3a2;
+        transform: skewY(-5deg);  /* Skew only the bottom edge */
+        display:block;
+        position:fixed;
+        top: 0;                    
+        left: 0;                  
+        padding: 0;                
+        margin: 0;
     }
 
     .maintitle{
-       color:red;
-       padding:5% 
-    }
+
+        display:none
+
+     }
+
+     .maintitlesmall{
+        font-family: 'latek';
+        color:white;
+        font-size: 90%;
+        padding-left: 3%;
+        text-align: left;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        border-width: 2px;
+        border-color: #61c3a2;
+        border-style: inset;
+        background-image: url("stars4.gif");
+     }
     
     
     
-    .intro{
-        font-size:200%
+    .topmenu{
+        background-image: url("IMG_1766.jpg");
+        font-family: 'latek';
+        font-size:150%;
+        border-spacing: 10px;
+        display: float;
+        position:fixed;
+        width: 100%;
+        margin-top: 10%;
     }
 
+    .topmenusmall{
+        background-image: url("IMG_1766.jpg");
+        font-family: 'urw';
+        font-size:150%;
+        border-spacing: 10px;
+        display: float;
+        position:fixed;
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+     .button1{
+        font-family:'latek';
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        border-width: 2px;
+        border-color: #61c3a2;
+        border-style: inset;
+        cursor: pointer;
+        width:5%;
+        font-size: 70%;
+        background-image: url("stars4.gif");
+     }
+
+    .maintext{
+        font-family: 'latek';
+        font-weight: 50;
+        width: 95%;
+        color:white;
+        font-size: 80%;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        float:right;
+        margin-right: 2%;
+        text-align: center;
+        padding-left: 3%;
+    }
+
+    .sectiontitle{
+        font-family: 'latek';
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        text-align: left;
+        width:fit-content;
+    }
+
+    .intro{
+        padding-top: 40%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
+
+    .section2{
+        padding-top: 40%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  
+        font-size:200%;
+    }
+
+    .section3{
+        padding-top: 40%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
+
+    .section4{
+        padding-top: 40%;
+        color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size:200%;
+    }
 
 
 
@@ -62,7 +185,7 @@
     }
 
     .maintitle{
-        font-family: 'urw';
+        font-family: 'latek';
         color:white;
         font-size: 200%;
         padding-left: 3%;
@@ -74,11 +197,14 @@
         background-image: url("stars4.gif");
      }
     
+    .maintitlesmall{
+        display:none
+    }
     
     
     .topmenu{
-        background-image: url("IMG_1766.jpg");
-        font-family: 'urw';
+        /* background-image: url("IMG_1766.jpg"); */
+        font-family: 'latek';
         font-size:150%;
         border-spacing: 10px;
         display: float;
@@ -90,8 +216,12 @@
     }
 
 
+    .topmenusmall{
+        display:none
+    }
+
      .button1{
-        /* background-color: #61c3a2; */
+        font-family: 'latek';
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         border-width: 2px;
@@ -103,7 +233,7 @@
      }
 
     .maintext{
-        font-family: 'urw';
+        font-family: 'latek';
         font-weight: 50;
         width: 95%;
         color:white;
@@ -115,7 +245,7 @@
     }
 
     .sectiontitle{
-        font-family: 'urw';
+        font-family: 'latek';
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         text-align: left;
@@ -170,6 +300,11 @@
  @font-face  {
     font-family:'urw_title';
     src: url("urw-antiqua-font-1743993003-0/Fontspring-DEMO-urwantiquasc-med.otf")
+ }
+
+ @font-face  {
+    font-family:'latek';
+    src: url("C:/Users/storm/OneDrive/Documents/GitHub/azimut.github.io/computer-modern/cmunssdc.ttf")
  }
 
 
