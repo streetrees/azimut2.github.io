@@ -6,33 +6,34 @@
         background-color: black;
     }
 
-
-    .header{
+        .header{
         height: 15%;
         display:block;
+        align-items: center;
         position:fixed;
-        display:flex;
-        align-items: top;
         top: 0;                    
         left: 0;                  
         padding: 0;                
         margin: 0;
         z-index: 100;
+        background-image: url("moon.jpg");
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease;
     }
 
-    .skewed-bottom {
-        padding-top: 1%;
-        width: 100%;
-        height: 100px;  /* Height of the skewed part */
-        background-color: #61c3a2;
-        transform: skewY(-5deg);  /* Skew only the bottom edge */
-        display:block;
+
+    .topmenu{
+        /* background-image: url("moon.jpg"); */
+        font-family: 'milspec';
+        font-size:150%;
+        border-spacing: 5px;
+        display: float;
         position:fixed;
-        top: 0;                    
-        left: 0;                  
-        padding: 0;                
-        margin: 0;
+        width: 100%;
+        margin-top: 10%;
     }
+
 
     .maintitle{
 
@@ -41,21 +42,17 @@
      }
 
      .maintitlesmall{
-        font-family: 'latek';
-        color:white;
-        font-size: 90%;
+        font-family: 'murk';
+        color:blue;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px black; 
+        font-size: 150%;
         padding-left: 3%;
         text-align: left;
-        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        border-width: 2px;
-        border-color: #61c3a2;
-        border-style: inset;
-        background-image: url("stars4.gif");
      }
     
     
     
-    .topmenu{
+    /* .topmenu{
         background-image: url("IMG_1766.jpg");
         font-family: 'latek';
         font-size:150%;
@@ -64,80 +61,103 @@
         position:fixed;
         width: 100%;
         margin-top: 10%;
-    }
+    } */
 
     .topmenusmall{
-        background-image: url("IMG_1766.jpg");
-        font-family: 'urw';
+        background-image: url("moon.jpg");
+        font-family: 'milspec';
         font-size:150%;
-        border-spacing: 10px;
+        border-spacing: 5px;
         display: float;
         position:fixed;
         width: 100%;
-        margin-top: 0;
     }
 
-
      .button1{
-        font-family:'latek';
+        font-family:'milspec';
         color:white;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         border-width: 2px;
-        border-color: #61c3a2;
+        border-color: white;
         border-style: inset;
         cursor: pointer;
-        width:5%;
-        font-size: 70%;
+        font-size: 50%;
         background-image: url("stars4.gif");
      }
 
-    .maintext{
-        font-family: 'latek';
+    /* .maintext{
+        font-family: 'milspec';
         font-weight: 50;
         width: 95%;
         color:white;
         font-size: 80%;
-        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         float:right;
         margin-right: 2%;
         text-align: center;
         padding-left: 3%;
+    } */
+
+    .image{
+    
+    width:100%
+
+    }
+
+    .maintext{
+        padding-top: 15%;
+        font-family: 'milspec';
+        font-weight: 50;
+        width: 100%;
+        color:white;
+        font-size: 80%;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
     }
 
     .sectiontitle{
-        font-family: 'latek';
+        font-family: 'murk';
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        text-align: left;
-        width:fit-content;
+        text-align: center;
+        font-size: 170%;
     }
 
     .intro{
-        padding-top: 40%;
+        max-width:90%;
         color:white;
-        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        font-size:200%;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        text-align: center;
+        padding-top: 10%;
+        font-size: 120%;
+                           
     }
 
     .section2{
-        padding-top: 40%;
+        padding-top: 10%;
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;   */
-        font-size:200%;
+        font-size:100%;
+    }
+
+    .guided_disc{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 140%;
     }
 
     .section3{
-        padding-top: 40%;
+        padding-top: 10%;
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        font-size:200%;
+        font-size:100%;
     }
 
     .section4{
-        padding-top: 40%;
+        padding-top: 10%;
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        font-size:200%;
+        font-size:100%;
     }
 
 
@@ -154,7 +174,7 @@
     }
 
 
-    .header{
+    /* .header{
         height: 15%;
         width:100%;
         display:block;
@@ -165,39 +185,51 @@
         left: 0;                  
         padding: 0;                
         margin: 0;
-        background-image: url("IMG_1766.jpg"); 
-        border-width: 2px;
-        border-color: #61c3a2;
-        border-style: inset;
-        z-index: 100;
-    }
+        background-image: url("moon.jpg"); 
+        /* border-width: 2px; */
+        /* border-color: #61c3a2; */
+        /* border-style: inset; */
+        /* z-index: 100;
+    }  */
 
-    .skewed-bottom {
-        padding-top: 2%;
+    .header {
+        height: 15%;
         width: 100%;
-        height: 100px;  /* Height of the skewed part */
-        background-color: #61c3a2;
-        transform: skewY(-5deg);  /* Skew only the bottom edge */
-        display:block;
-        position:fixed;
-        top: 0;                    
-        left: 0;                  
-        padding: 0;                
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
         margin: 0;
+        background-image: url("moon.jpg");
+        background-size: cover;
+        background-position: center;
+        z-index: 100;
+        transition: all 0.3s ease;
+    }
+    
+    /* Add this for the smaller version */
+    .header.shrink {
+        height: 5%; /* or whatever smaller height you prefer */
     }
 
-    .maintitle{
-        font-family: 'latek';
-        color:white;
-        font-size: 200%;
+
+
+     .maintitle {
+        font-family: 'murk';
+        color: blue;
+        font-size: 350%;
         padding-left: 3%;
         text-align: left;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
-        border-width: 2px;
-        border-color: #61c3a2;
-        border-style: inset;
-        background-image: url("stars4.gif");
-     }
+        text-shadow: 1px 1px 2px white, -1px -1px 2px black; 
+        transition: all 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .header.shrink .maintitle {
+        padding-top: 15px;  /* Only applies when scrolled */
+        font-size: 300%;    /* Optional: scale down title a bit */
+    }
     
     .maintitlesmall{
         display:none
@@ -222,52 +254,77 @@
         display:none
     }
 
-     .button1{
-        font-family: 'latek';
-        color:white;
+
+     .button1 {
+        font-family: 'milspec';
+        font-size: 100%;
+        color: white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         border-width: 2px;
-        border-color: #61c3a2;
-        border-style: inset;
         cursor: pointer;
-        width:10%;
+        width: 10%;
         background-image: url("stars4.gif");
-     }
+        transition: all 0.3s ease;
+    }
+    
+    /* Shrink behavior for buttons */
+    .header.shrink .button1 {
+        font-size: 75%;   /* slightly smaller */
+        width: 5%;        /* narrower if desired */
+    }
+
+    .image{
+    
+        height:400px
+    
+        }
 
     .maintext{
-        font-family: 'latek';
+        font-family: 'milspec';
         font-weight: 50;
         width: 95%;
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
-        float:right;
+        margin-top: 2%;
         margin-right: 2%;
         text-align: center;
         padding-left: 3%;
     }
 
     .sectiontitle{
-        font-family: 'latek';
+        margin-top: 3%;
+        font-family: 'murk';
         color:white;
+        font-size: 190%;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
-        text-align: left;
-        width:fit-content;
+        display: flex;
+        justify-content: center;   /* Horizontal centering */
+        align-items: center;       /* Vertical centering */  
     }
 
     .intro{
+        height: 100vh;
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         font-size:200%;
     }
 
     .section2{
+        height:100vh;
         padding-top: 2%;
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  
         font-size:200%;
     }
 
+    .guided_disc{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 200%;
+    }
+
     .section3{
+        height:100vh;
         padding-top: 2%;
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
@@ -275,6 +332,7 @@
     }
 
     .section4{
+        height: 100vh;
         padding-top: 2%;
         color:white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
@@ -309,6 +367,20 @@
     src: url("computer-modern/cmunssdc.ttf")
  }
 
+ @font-face  {
+    font-family:'milspec';
+    src: url("MilSpec33558.ttf")
+ }
+
+ @font-face  {
+    font-family:'witch';
+    src: url("Witches-Magic.ttf")
+ }
+
+ @font-face  {
+    font-family:'murk';
+    src: url("Murk.ttf")
+ }
 
 
 
