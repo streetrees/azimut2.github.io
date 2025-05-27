@@ -31,7 +31,8 @@
         display: float;
         position:fixed;
         width: 100%;
-        margin-top: 10%;
+        margin-top: 11%;
+        /* background-image: url("stars4.gif"); */
     }
 
 
@@ -76,11 +77,11 @@
      .button1{
         font-family:'milspec';
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; */
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
-        border-width: 2px;
+        /* border-width: 2px;
         border-color: white;
-        border-style: inset;
+        border-style: inset; */
         cursor: pointer;
         font-size: 50%;
         background-image: url("stars4.gif");
@@ -112,7 +113,7 @@
         width: 100%;
         color:white;
         font-size: 80%;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
     }
 
     .sectiontitle{
@@ -120,13 +121,13 @@
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         text-align: center;
-        font-size: 170%;
+        font-size: 300%;
     }
 
     .intro{
         max-width:90%;
         color:white;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         text-align: center;
         padding-top: 10%;
         font-size: 120%;
@@ -143,7 +144,7 @@
     .guided_disc{
         padding-left: 5%;
         padding-right: 5%;
-        font-size: 140%;
+        font-size: 180%;
     }
 
     .section3{
@@ -257,7 +258,7 @@
 
      .button1 {
         font-family: 'milspec';
-        font-size: 100%;
+        font-size: 90%;
         color: white;
         text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
         border-width: 2px;
@@ -321,6 +322,7 @@
         padding-left: 5%;
         padding-right: 5%;
         font-size: 200%;
+        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
     }
 
     .section3{
