@@ -198,6 +198,8 @@
         header.classList.remove('shrink');
     }
 });
+
+if (window.innerWidth < 500) {
 window.addEventListener("scroll", function () {
     const title = document.querySelector(".maintitlesmall");
     const scrollY = window.scrollY;
@@ -222,7 +224,7 @@ window.addEventListener("scroll", function () {
         menu.style.marginTop = "20%";
     }
 });
-
+}
 </script>
   
 </html>

@@ -79,7 +79,7 @@
 
      .button1{
         font-family:'milspec';
-        color:white;
+        color:blue;
         /* text-shadow: 1px 1px 2px black; */
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         /* border-width: 2px;
@@ -87,7 +87,8 @@
         border-style: inset; */
         cursor: pointer;
         font-size: 60%;
-        background-image: url("stars4.gif");
+        background-color: #bebebe;
+        /* background-image: url("stars4.gif"); */
      }
 
     /* .maintext{
