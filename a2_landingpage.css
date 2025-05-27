@@ -31,7 +31,7 @@
         display: float;
         position:fixed;
         width: 100%;
-        margin-top: 11%;
+        margin-top: 14%;
         /* background-image: url("stars4.gif"); */
     }
 
@@ -45,8 +45,9 @@
      .maintitlesmall{
         font-family: 'murk';
         color:blue;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px black; 
-        font-size: 150%;
+        font-weight: 400;
+        /* text-shadow: 1px 1px 2px white, -1px -1px 2px black;  */
+        font-size: 190%;
         padding-left: 3%;
         text-align: left;
      }
@@ -129,7 +130,7 @@
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         text-align: center;
-        padding-top: 10%;
+        padding-top: 20%;
         font-size: 120%;
                            
     }
@@ -139,6 +140,8 @@
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;   */
         font-size:100%;
+        height:100vh;
+        padding-top: 25%;
     }
 
     .guided_disc{
@@ -152,6 +155,7 @@
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         font-size:100%;
+        height:100vh;
     }
 
     .section4{
