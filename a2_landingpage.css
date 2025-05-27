@@ -28,10 +28,11 @@
         font-family: 'milspec';
         font-size:150%;
         border-spacing: 5px;
-        display: float;
         position:fixed;
         width: 100%;
         margin-top: 20%;
+        transition: margin-top 0.3s ease;
+        z-index: 1000;
         /* background-image: url("stars4.gif"); */
     }
 
@@ -50,6 +51,7 @@
         font-size: 300%;
         padding-left: 3%;
         text-align: center;
+        transition: font-size 0.3s ease;
      }
     
     
@@ -78,13 +80,13 @@
      .button1{
         font-family:'milspec';
         color:white;
-        /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; */
+        /* text-shadow: 1px 1px 2px black; */
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         /* border-width: 2px;
         border-color: white;
         border-style: inset; */
         cursor: pointer;
-        font-size: 50%;
+        font-size: 60%;
         background-image: url("stars4.gif");
      }
 
@@ -130,7 +132,7 @@
         color:white;
         /* text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2;  */
         text-align: center;
-        padding-top: 20%;
+        padding-top: 25%;
         font-size: 120%;
                            
     }
@@ -145,6 +147,7 @@
     }
 
     .guided_disc{
+        padding-top: 20%;
         padding-left: 5%;
         padding-right: 5%;
         font-size: 180%;
@@ -323,6 +326,7 @@
     }
 
     .guided_disc{
+        height:100vh;
         padding-left: 5%;
         padding-right: 5%;
         font-size: 200%;

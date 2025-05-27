@@ -28,7 +28,7 @@
         <th class="button1" onclick="scrollToSection('section2')"> 
             EVENTS 
         </th>
-        <th class="button1" onclick="scrollToSection('section3')"> 
+        <th class="button1" onclick="scrollToSection('guided_disc')"> 
            ZINE
         </th>
         <th class="button1" onclick="scrollToSection('section4')"> 
@@ -71,7 +71,7 @@
                         </th>
                     </tr>
                     <tr>
-                        <th class="guided_disc" id="section2">
+                        <th class="guided_disc" id="guided_disc">
                         <div>
                             <span style=" font-size: 70%; text-align: left;">
                                 Guided discussion:
@@ -151,16 +151,16 @@
                         <br><br>
                     </th>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <th class="section3" id="section3" >
-                        <!-- <div class="sectiontitle" >
+                         <div class="sectiontitle" >
                             ZINE
-                        </div> -->
+                        </div> 
                         <br>
 
                 
                     </th>
-                </tr>
+                </tr> -->
                 <tr>
                     <th class="section4" id="section4" >
                         <div class="sectiontitle" >
@@ -198,6 +198,31 @@
         header.classList.remove('shrink');
     }
 });
-  </script>
+window.addEventListener("scroll", function () {
+    const title = document.querySelector(".maintitlesmall");
+    const scrollY = window.scrollY;
+
+    // Adjust font size and text alignment
+    if (scrollY > 100) {
+        title.style.fontSize = "150%";
+        title.style.textAlign = "left";
+    } else {
+        title.style.fontSize = "300%";
+        title.style.textAlign = "center";
+    }
+});
+window.addEventListener("scroll", function () {
+    const menu = document.querySelector(".topmenu");
+    const scrollY = window.scrollY;
+
+    // Scroll threshold at 100px (adjust as needed)
+    if (scrollY > 100) {
+        menu.style.marginTop = "10%";
+    } else {
+        menu.style.marginTop = "20%";
+    }
+});
+
+</script>
   
 </html>
