@@ -156,8 +156,7 @@
         height:100vh;
         padding-left: 5%;
         padding-right: 5%;
-        font-size: 200%;
-        text-shadow: 1px 1px 2px white, -1px -1px 2px #61c3a2; 
+        font-size: 100%;
     }
 
     .guided_disc{
